@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F8F8F8"
+    android:id="@+id/main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center">
+
+        <!-- 환영 텍스트 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="책을 추천 받아보세요👋"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="동서남Book에 오신 여러분 환영합니다!"
+            android:textSize="16sp"
+            android:textColor="#808080"
+            android:layout_marginBottom="24dp" />
+
+        <!-- 이메일 입력 -->
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginBottom="16dp"
+            android:padding="16dp" />
+
+        <!-- 비밀번호 입력 -->
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginBottom="8dp"
+            android:padding="16dp" />
+
+        <!-- 'Remember Me' 체크박스와 'Forgot Password' -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="24dp">
+
+
+        </LinearLayout>
+
+        <!-- 로그인 버튼 -->
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="로그인"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#6200EE"
+            android:layout_marginBottom="16dp" />
+
+        <!-- 회원가입 버튼 -->
+        <Button
+            android:id="@+id/regi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="회원가입"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#6200EE"
+            android:layout_marginBottom="16dp" />
+
+        <!-- 회원가입 텍스트 -->
+    </LinearLayout>
+</ScrollView>

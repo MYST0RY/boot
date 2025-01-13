@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "598696968637",
+    "project_id": "dongseonambook-d59e8",
+    "storage_bucket": "dongseonambook-d59e8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598696968637:android:b40fec91bd9e1d893012d4",
+        "android_client_info": {
+          "package_name": "com.example.dongseonambook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAuKx3vjqSs68Nq1leYCHQSE7COfp7dXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
